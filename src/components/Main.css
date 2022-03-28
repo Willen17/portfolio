@@ -11,4 +11,5 @@
 main {
   background-color: #333333;
   font-family: PoetsenOne;
+  overflow: hidden;
 }

@@ -134,12 +134,30 @@
 .bottom-button {
   font-family: boardmarker;
   font-size: 4rem;
-  transform: rotate(90deg) scaleY(2);
+  /* transform: rotate(90deg) scaleY(2); */
   transform-origin: 0 0;
   position: absolute;
   bottom: 0;
   left: calc((100vw - 50%) + 4rem);
   z-index: 20;
+  animation: bounce 2s infinite 2s;
+  transition: all 0.5s ease-in 3s;
+}
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    transform: rotate(90deg) scaleY(2) translateX(0);
+  }
+  40% {
+    transform: rotate(90deg) scaleY(2) translateX(-10px);
+  }
+  60% {
+    transform: rotate(90deg) scaleY(2) translateX(-5px);
+  }
 }
 
 @media (max-width: 970px) {
