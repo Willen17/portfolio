@@ -1,0 +1,14 @@
+@font-face {
+  font-family: PoetsenOne;
+  src: url(../assets/fonts/PoetsenOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: boardmarker;
+  src: url(../assets/fonts/BoardMarker.ttf);
+}
+
+main {
+  background-color: #333333;
+  font-family: PoetsenOne;
+}
