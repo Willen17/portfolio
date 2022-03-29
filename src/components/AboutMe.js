@@ -8,11 +8,30 @@ export default function AboutMe() {
     <div className="about-me-container">
       <div className="about-me-top">
         <p className="element-text-about-me">{"< section >"}</p>
-        <div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
           <h2 className="hero-title2">About me</h2>
-          <div className="hero-ball">
-            <i className="hero-ball-shadow" />
-            <div className="hero-img" />
+          <div className="img-aboutme-container">
+            <div className="beer-logo-aboutme-container">
+              <BeerLogo className="beer-logo-aboutme" fill="#555555" />
+            </div>
+            <div className="ball-aboutme">
+              <i className="ball-aboutme-shadow" />
+              <div className="hero-img" />
+            </div>
+
+            <div className="developer-logo-aboutme-container">
+              <DeveloperLogo
+                className="developer-logo-aboutme"
+                fill="#555555"
+              />
+            </div>
           </div>
         </div>
 

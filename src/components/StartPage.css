@@ -134,7 +134,6 @@
 .bottom-button {
   font-family: boardmarker;
   font-size: 4rem;
-  /* transform: rotate(90deg) scaleY(2); */
   transform-origin: 0 0;
   position: absolute;
   bottom: 0;
@@ -215,6 +214,13 @@
     width: 3.2rem;
     bottom: 3px;
     right: 3px;
+  }
+}
+
+@media (max-width: 699px) {
+  .bottom-button {
+    font-size: 2rem;
+    left: calc((100vw - 50%) + 2rem);
   }
 }
 
