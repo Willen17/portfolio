@@ -1,5 +1,6 @@
 import AboutMe from "./AboutMe";
 import "./Main.css";
+import Skills from "./Skills";
 import StartPage from "./StartPage";
 
 export default function Main() {
@@ -7,6 +8,7 @@ export default function Main() {
     <main>
       <StartPage />
       <AboutMe />
+      <Skills />
     </main>
   );
 }
