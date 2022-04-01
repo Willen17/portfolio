@@ -1,12 +1,20 @@
 .skills-container {
   height: 100vh;
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #f4e04e;
   position: relative;
+  margin: 0 5%;
+}
+
+.skills-text {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: #fbf7f5;
 }
 
 .skills-logo {
@@ -25,4 +33,21 @@
   padding: 0.3rem;
   margin: 2rem;
   background-color: #555555;
+}
+
+@media (max-width: 730px) {
+  .skills-logo {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+@media (max-width: 455px) {
+  .skills-text {
+    font-size: 1rem;
+  }
+  .skills-logo {
+    width: 3rem;
+    height: 3rem;
+  }
 }
