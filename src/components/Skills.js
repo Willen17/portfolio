@@ -1,4 +1,5 @@
 import "./Skills.css";
+import Tilt from "react-parallax-tilt";
 import { ReactComponent as HTMLLogo } from "../assets/icons/html-5-logo-svgrepo-com.svg";
 import { ReactComponent as CSSLogo } from "../assets/icons/css-3-logo-svgrepo-com.svg";
 import { ReactComponent as JSLogo } from "../assets/icons/javascript-svgrepo-com.svg";
@@ -25,19 +26,43 @@ export default function Skills() {
         than confident in using.
       </p>
       <div className="skills-wrapper">
-        <HTMLLogo className="skills-logo" />
-        <CSSLogo className="skills-logo" />
-        <JSLogo className="skills-logo" />
-        <TSLogo className="skills-logo" />
-        <ReactLogo className="skills-logo" />
-        <P5Logo className="skills-logo" style={{ fill: "#ED225D" }} />
-        <GITLogo className="skills-logo" />
-        <FigmaLogo className="skills-logo" />
+        <Tilt tiltReverse={true}>
+          <HTMLLogo className="skills-logo" />
+        </Tilt>
+        <Tilt tiltReverse={true}>
+          <CSSLogo className="skills-logo" />
+        </Tilt>
+        <Tilt tiltReverse={true}>
+          <JSLogo className="skills-logo" />
+        </Tilt>
+        <Tilt tiltReverse={true}>
+          <TSLogo className="skills-logo" />
+        </Tilt>{" "}
+        <Tilt tiltReverse={true}>
+          <ReactLogo className="skills-logo" />
+        </Tilt>
+        <Tilt tiltReverse={true}>
+          <P5Logo className="skills-logo" style={{ fill: "#ED225D" }} />
+        </Tilt>
+        <Tilt tiltReverse={true}>
+          <GITLogo className="skills-logo" />
+        </Tilt>
+        <Tilt tiltReverse={true}>
+          <FigmaLogo className="skills-logo" />
+        </Tilt>
         <div className="skills-wrapper">
-          <AILogo className="skills-logo" />
-          <AELogo className="skills-logo" />
-          <PSLogo className="skills-logo" />
-          <PRLogo className="skills-logo" />
+          <Tilt tiltReverse={true}>
+            <AILogo className="skills-logo" />
+          </Tilt>
+          <Tilt tiltReverse={true}>
+            <AELogo className="skills-logo" />
+          </Tilt>
+          <Tilt tiltReverse={true}>
+            <PSLogo className="skills-logo" />
+          </Tilt>
+          <Tilt tiltReverse={true}>
+            <PRLogo className="skills-logo" />
+          </Tilt>
         </div>
       </div>
     </div>
