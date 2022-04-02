@@ -25,9 +25,10 @@
   margin: 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   padding: 1rem;
+  width: 20rem;
   background-color: #f4e04e;
   border-radius: 1rem;
   color: #333333;
@@ -37,4 +38,11 @@
   width: 1.2rem;
   height: 1.2rem;
   padding: 1rem;
+}
+
+.project-preview {
+  width: 15rem;
+  margin: 1rem;
+  height: auto;
+  border-radius: 0.5rem;
 }
