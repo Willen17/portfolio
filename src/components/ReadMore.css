@@ -1,0 +1,20 @@
+.text {
+  display: inline;
+  width: 100%;
+}
+
+.read-more-icon {
+  height: 0.8rem;
+  fill: #4095ef;
+}
+
+.read-or-hide {
+  padding: 0.2rem;
+  color: #4095ef;
+  text-align: center;
+  cursor: pointer;
+}
+
+.read-or-hide:hover {
+  color: #3078c6;
+}
