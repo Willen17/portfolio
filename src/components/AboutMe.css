@@ -248,6 +248,9 @@
   .img-aboutme-container {
     margin-top: -2rem;
   }
+  .about-me-top {
+    margin-top: 0.5rem;
+  }
   .ball-aboutme,
   .ball-aboutme-shadow {
     width: 6rem;

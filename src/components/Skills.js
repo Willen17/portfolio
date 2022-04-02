@@ -18,9 +18,9 @@ export default function Skills() {
     <div className="skills-container">
       <h2 className="hero-title2">Skills</h2>
       <p className="skills-text">
-        After about a year of web developing I have hade the delight to come
-        across a bunch of different techniques. <br /> All from the basics such
-        as HTML and CSS to different libraries like React and P5js. <br />
+        After about a year of web developing I have had the delight of using a
+        bunch of different techniques. <br /> All from the basics such as HTML
+        and CSS to different libraries like React and P5js. <br />
         <br />
         Listed beneath are techniques, programs and libraries which I am more
         than confident in using.

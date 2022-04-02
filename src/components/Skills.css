@@ -41,19 +41,37 @@
   background-color: #555555;
 }
 
-@media (max-width: 730px) {
+@media (max-width: 1035px) {
   .skills-logo {
     width: 4rem;
     height: 4rem;
   }
 }
 
-@media (max-width: 455px) {
+@media (max-width: 620px) {
   .skills-text {
     font-size: 1rem;
   }
   .skills-logo {
     width: 3rem;
     height: 3rem;
+    padding: 0.4rem;
+  }
+  .skills-wrapper {
+    margin: 0;
+  }
+}
+
+@media (max-height: 650px) {
+  .skills-logo {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.4rem;
+  }
+  .skills-wrapper {
+    margin: 0;
+  }
+  .skills-container {
+    margin: 5%;
   }
 }
