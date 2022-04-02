@@ -3,8 +3,11 @@ import { ReactComponent as ReactLogo } from "../assets/icons/react-svgrepo-com.s
 import { ReactComponent as TSLogo } from "../assets/icons/typescript-svgrepo-com.svg";
 import { ReactComponent as GithubLogo } from "../assets/icons/github-svgrepo-com.svg";
 import { ReactComponent as LinkLogo } from "../assets/icons/link-svgrepo-com.svg";
+import { ReactComponent as MuiLogo } from "../assets/icons/material-ui-svgrepo-com.svg";
+
 import Kameraproffset from "../assets/imgs/kameraproffser.gif";
 import ReadMore from "./ReadMore";
+import HoverText from "./HoverText";
 
 export default function Projects() {
   return (
@@ -12,13 +15,15 @@ export default function Projects() {
       <h2 className="hero-title2">Projects</h2>
       <div className="projects-wrapper">
         <div className="project-card">
-          Kameraproffset
-          <img
-            className="project-preview"
-            src={Kameraproffset}
-            alt="Kameraproffset"
-          />
-          <p>
+          <h2 style={{ letterSpacing: ".05rem" }}>Kameraproffset</h2>
+          <div className="preview-wrapper">
+            <img
+              className="project-preview"
+              src={Kameraproffset}
+              alt="Kameraproffset"
+            />
+          </div>
+          <span>
             <ReadMore>
               Together with three classmates I created a camera web shop. The
               web shop contains the whole customer experience - from adding a
@@ -27,14 +32,34 @@ export default function Projects() {
               admin page where we can change products according to the CRUD
               principle.
             </ReadMore>
-          </p>
+          </span>
           <div style={{ display: "flex", alignItems: "center" }}>
-            Created using: <ReactLogo className="project-logo" />
-            <TSLogo className="project-logo" />
+            Created using:
+            <HoverText text="React">
+              <ReactLogo className="project-logo" />
+            </HoverText>
+            <HoverText text="Typescript">
+              <TSLogo className="project-logo" />
+            </HoverText>
+            <HoverText text="Material">
+              <MuiLogo className="project-logo" />
+            </HoverText>
           </div>
           <div>
-            <GithubLogo className="project-logo" />{" "}
-            <LinkLogo className="project-logo" />
+            <a
+              href="https://github.com/Willen17/miniprojekt2-webbshop"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GithubLogo className="project-link" />
+            </a>
+            <a
+              href="https://kameraproffset.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <LinkLogo className="project-link" />
+            </a>
           </div>
         </div>
       </div>

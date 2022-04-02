@@ -37,12 +37,26 @@
 .project-logo {
   width: 1.2rem;
   height: 1.2rem;
+}
+
+.project-link {
+  width: 2rem;
+  height: 2rem;
   padding: 1rem;
+  transition: all 0.15s ease-in-out;
+}
+.project-link:hover {
+  fill: #555555;
+  transform: scale(1.2);
+}
+
+.preview-wrapper {
+  width: 100%;
+  height: max-content;
+  margin: 1rem 0;
 }
 
 .project-preview {
-  width: 15rem;
-  margin: 1rem;
-  height: auto;
+  width: 100%;
   border-radius: 0.5rem;
 }

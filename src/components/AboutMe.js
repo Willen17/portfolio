@@ -50,7 +50,7 @@ export default function AboutMe() {
         </div>
       </div>
       <div className="cloud-container">
-        <div class="cloud">
+        <div className="cloud">
           <div className="cloud-circle" />
           <BeerLogo className="beer-logo" fill="#555555" />
           <DeveloperLogo className="developer-logo" fill="#555555" />

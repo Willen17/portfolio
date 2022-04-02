@@ -10,7 +10,7 @@ const ReadMore = ({ children }) => {
     setIsReadMore(!isReadMore);
   };
   return (
-    <p className="text">
+    <span className="text">
       {isReadMore ? text.slice(0, 150) : text}
       <div onClick={toggleReadMore} className="read-or-hide">
         {isReadMore ? "read more" : "show less "}
@@ -20,7 +20,7 @@ const ReadMore = ({ children }) => {
           <UpArrow className="read-more-icon" />
         )}
       </div>
-    </p>
+    </span>
   );
 };
 
