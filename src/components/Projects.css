@@ -1,0 +1,40 @@
+.projects-container {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f4e04e;
+}
+
+.projects-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  border-radius: 2rem;
+  padding: 0.3rem;
+  margin: 2rem;
+  background-color: #555555;
+}
+
+.project-card {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f4e04e;
+  border-radius: 1rem;
+  color: #333333;
+}
+
+.project-logo {
+  width: 1.2rem;
+  height: 1.2rem;
+  padding: 1rem;
+}
