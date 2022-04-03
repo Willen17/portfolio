@@ -1,5 +1,5 @@
 .projects-container {
-  height: 100vh;
+  height: auto;
   position: relative;
   width: 100%;
   display: flex;

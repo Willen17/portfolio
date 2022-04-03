@@ -51,6 +51,16 @@ export default function Projects() {
           ts={true}
         />
         <ProjectCard
+          title="Italian plumber guy"
+          gif="italianplumber.gif"
+          text="This is a text adventure game where you're stuck in a giant castle and your wife Peach has been kidnapped by an evil turtle named Bowser. Your mission is to navigate thru the castle and save Peach. However, you face some challenges along the way."
+          repo="https://github.com/Willen17/Textspel"
+          demo="https://willen17.github.io/Textspel/"
+          html={true}
+          js={true}
+          css={true}
+        />
+        <ProjectCard
           title="Cum Pane"
           gif="cumpane.gif"
           text="Me and my classmate modernized an outdated website. The original website, cumpane.coop, is very outdated, lacks responsiveness and decent UX. We made our best to fix this and ended up with a way better version."
