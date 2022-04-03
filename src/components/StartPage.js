@@ -29,8 +29,8 @@ export default function StartPage() {
         <div>
           <Tilt
             perspective={500}
-            tiltMaxAngleX="10"
-            tiltMaxAngleY="10"
+            tiltMaxAngleX="5"
+            tiltMaxAngleY="5"
             trackOnWindow={true}
             tiltReverse={true}
           >
