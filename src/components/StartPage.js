@@ -1,5 +1,6 @@
 import "./StartPage.css";
 import Turtle from "./Turtle";
+import Tilt from "react-parallax-tilt";
 
 export default function StartPage() {
   return (
@@ -26,13 +27,20 @@ export default function StartPage() {
           </div>
         </div>
         <div>
-          <div className="hero-ball">
-            <div className="turtle">
-              <Turtle />
-            </div>
+          <Tilt
+            perspective={500}
+            scale={1.02}
+            trackOnWindow={true}
+            tiltReverse={true}
+          >
+            <div className="hero-ball">
+              <div className="turtle">
+                <Turtle />
+              </div>
 
-            <i className="hero-ball-shadow" />
-          </div>
+              <i className="hero-ball-shadow" />
+            </div>
+          </Tilt>
         </div>
       </div>
 
