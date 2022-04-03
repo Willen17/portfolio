@@ -6,6 +6,9 @@ import { ReactComponent as LinkLogo } from "../assets/icons/link-svgrepo-com.svg
 import { ReactComponent as MuiLogo } from "../assets/icons/material-ui-svgrepo-com.svg";
 import { ReactComponent as FigmaLogo } from "../assets/icons/figma-svgrepo-com.svg";
 import { ReactComponent as P5Logo } from "../assets/icons/p5js.svg";
+import { ReactComponent as HTMLLogo } from "../assets/icons/html-5-logo-svgrepo-com.svg";
+import { ReactComponent as CSSLogo } from "../assets/icons/css-3-logo-svgrepo-com.svg";
+import { ReactComponent as JSLogo } from "../assets/icons/javascript-svgrepo-com.svg";
 
 import Tilt from "react-parallax-tilt";
 
@@ -23,6 +26,9 @@ const ProjectCard = ({
   mui,
   figma,
   p5,
+  html,
+  css,
+  js,
 }) => {
   return (
     <Tilt tiltReverse={true} tiltMaxAngleX="5" tiltMaxAngleY="5">
@@ -40,6 +46,21 @@ const ProjectCard = ({
         </span>
         <div style={{ display: "flex", alignItems: "center" }}>
           Created using:
+          {html ? (
+            <HoverText text="HTML">
+              <HTMLLogo className="project-logo" />
+            </HoverText>
+          ) : null}
+          {css ? (
+            <HoverText text="CSS">
+              <CSSLogo className="project-logo" />
+            </HoverText>
+          ) : null}
+          {js ? (
+            <HoverText text="Javascript">
+              <JSLogo className="project-logo" />
+            </HoverText>
+          ) : null}
           {react ? (
             <HoverText text="React">
               <ReactLogo className="project-logo" />

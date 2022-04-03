@@ -14,7 +14,7 @@ export default function Projects() {
           going thru with a purchase and getting a unique order number. In
           addition to the customer flow, we have also created an admin page
           where we can change products according to the CRUD principle."
-          repo="https://github.com/Willen17/miniprojekt2-webbshop"
+          repo="https://github.com/Willen17/Kamerproffset-webshop"
           demo="https://kameraproffset.netlify.app/"
           react={true}
           ts={true}
@@ -28,6 +28,36 @@ export default function Projects() {
           demo="https://spacepatrol.netlify.app/"
           p5={true}
           ts={true}
+          figma={true}
+        />
+        <ProjectCard
+          title="Interactive CV"
+          gif="interactivecv.gif"
+          text="I was bored of all the traditional resumes and decided to take on a different twist. What I ended up creating is an interactive resume inspired by traditional platform-games, such as Mario. The site is also fully responsive."
+          repo="https://github.com/Willen17/Redesign-of-website"
+          demo="https://willen17.github.io/Interactive-CV/"
+          html={true}
+          css={true}
+          js={true}
+        />
+        <ProjectCard
+          title="Store.se"
+          gif="storese.gif"
+          text="A basic react webshop created by me and two classmates. The shop has 10 products which we fetch from an API. Since we didn't know about contexts we used callback-functions and props to control the data flow between the components."
+          repo="https://github.com/Willen17/Store.se-webshop"
+          demo="https://storese.netlify.app/"
+          react={true}
+          css={true}
+          ts={true}
+        />
+        <ProjectCard
+          title="Cum Pane"
+          gif="cumpane.gif"
+          text="Me and my classmate modernized an outdated website. The original website, cumpane.coop, is very outdated, lacks responsiveness and decent UX. We made our best to fix this and ended up with a way better version."
+          repo="https://github.com/Willen17/Redesign-of-website"
+          demo="https://willen17.github.io/Redesign-of-website/"
+          html={true}
+          css={true}
         />
       </div>
     </div>
