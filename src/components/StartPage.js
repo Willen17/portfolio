@@ -1,4 +1,5 @@
 import "./StartPage.css";
+import Turtle from "./Turtle";
 
 export default function StartPage() {
   return (
@@ -26,6 +27,10 @@ export default function StartPage() {
         </div>
         <div>
           <div className="hero-ball">
+            <div className="turtle">
+              <Turtle />
+            </div>
+
             <i className="hero-ball-shadow" />
           </div>
         </div>
