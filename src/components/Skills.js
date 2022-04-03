@@ -22,8 +22,8 @@ export default function Skills() {
         bunch of different techniques. <br /> All from the basics such as HTML
         and CSS to different libraries like React and P5js. <br />
         <br />
-        Listed beneath are techniques, programs and libraries which I am more
-        than confident in using.
+        Listed beneath are techniques, programmes and libraries in which I have
+        experience working with.
       </p>
       <div className="skills-wrapper">
         <Tilt tiltReverse={true}>
