@@ -1,6 +1,7 @@
 import "./StartPage.css";
 import Turtle from "./Turtle";
 import Tilt from "react-parallax-tilt";
+import { Typewriter } from "react-simple-typewriter";
 
 export default function StartPage() {
   return (
@@ -13,7 +14,17 @@ export default function StartPage() {
             <h2 className="hero-title2">I am</h2>
             <h2 className="hero-title3">William</h2>
           </div>
-          <h3 className="hero-title2">a front-end developer</h3>
+          <span className="hero-title2">
+            <Typewriter
+              words={["a front-end developer", "a fart"]}
+              cursor
+              loop={false}
+              cursorStyle="|"
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1000}
+            ></Typewriter>
+          </span>
           <div className="hero-ball-container">
             <div className="hero-small-ball1">
               <i className="hero-small-ball1-shadow" />
