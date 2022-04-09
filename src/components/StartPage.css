@@ -173,6 +173,7 @@
 
 @media (max-width: 970px) {
   .hero-ball,
+  .turtle,
   .hero-ball-shadow {
     width: 10rem;
     height: 10rem;
