@@ -17,7 +17,11 @@ export default function StartPage() {
           <span className="hero-title2">
             a
             <Typewriter
-              words={[" front-end developer", " fart"]}
+              words={[
+                " front-end developer",
+                " coffee addict",
+                " media creator",
+              ]}
               cursor
               loop={false}
               cursorStyle="|"
@@ -56,8 +60,9 @@ export default function StartPage() {
           </Tilt>
         </div>
       </div>
-
-      <div className="bottom-button">{">>"}</div>
+      <a href="#about-me" style={{ color: "unset" }}>
+        <div className="bottom-button">{">>"}</div>
+      </a>
     </div>
   );
 }

@@ -5,7 +5,7 @@ import { ReactComponent as DeveloperLogo } from "../assets/icons/web-development
 
 export default function AboutMe() {
   return (
-    <div className="about-me-container">
+    <div className="about-me-container" id="about-me">
       <div className="about-me-top">
         <p className="element-text-about-me">{"< section >"}</p>
         <div
@@ -57,7 +57,9 @@ export default function AboutMe() {
           <div className="cloud-circle2" />
         </div>
       </div>
-      <div className="bottom-button">{">>"}</div>
+      <a href="#skills" style={{ color: "unset" }}>
+        <div className="bottom-button">{">>"}</div>
+      </a>
     </div>
   );
 }

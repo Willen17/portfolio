@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 export default function Projects() {
   return (
-    <div className="projects-container">
+    <div className="projects-container" id="projects">
       <h2 className="hero-title2">Projects</h2>
       <div className="projects-wrapper">
         <ProjectCard

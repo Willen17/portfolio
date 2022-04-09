@@ -15,7 +15,7 @@ import { ReactComponent as FigmaLogo } from "../assets/icons/figma-svgrepo-com.s
 
 export default function Skills() {
   return (
-    <div className="skills-container">
+    <div className="skills-container" id="skills">
       <h2 className="hero-title2">Skills</h2>
       <p className="skills-text">
         After about a year of web developing I have had the delight of using a
@@ -65,6 +65,9 @@ export default function Skills() {
           </Tilt>
         </div>
       </div>
+      <a href="#projects" style={{ color: "unset" }}>
+        <div className="bottom-button">{">>"}</div>
+      </a>
     </div>
   );
 }

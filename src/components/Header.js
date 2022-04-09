@@ -7,18 +7,26 @@ export default function Header() {
     <header>
       <p className="header-text">{"< HEADER >"}</p>
       <div>
-        <LinkedInLogo
-          className="linkedin-logo"
-          fill="#FBF7F5"
-          width={"2rem"}
-          height={"2rem"}
-        />
-        <GithubLogo
-          className="github-logo"
-          fill="#FBF7F5"
-          width={"2rem"}
-          height={"2rem"}
-        />
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/williamsaar99/"
+        >
+          <LinkedInLogo
+            className="linkedin-logo"
+            fill="#FBF7F5"
+            width={"2rem"}
+            height={"2rem"}
+          />
+        </a>
+        <a target="_blank" rel="noreferrer" href="https://github.com/Willen17">
+          <GithubLogo
+            className="github-logo"
+            fill="#FBF7F5"
+            width={"2rem"}
+            height={"2rem"}
+          />
+        </a>
       </div>
     </header>
   );
