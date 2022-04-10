@@ -1,5 +1,5 @@
 # My portfolio (work in progress)
 
-This will be my portfolio where I can show off my work and projects. Keep in my mind that this is a work in progress. This is nowhere near the finished product.
+This is my portfolio. Here you can read about me, see my skills and projects.
 
 ---
