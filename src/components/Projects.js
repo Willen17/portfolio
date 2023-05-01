@@ -7,6 +7,26 @@ export default function Projects() {
       <h2 className="hero-title2">Projects</h2>
       <div className="projects-wrapper">
         <ProjectCard
+          title="Blueprint"
+          video="blueprint"
+          text="Blueprint is a digital picture wall planner that assists you with creating your ideal art wall. It is used to simulate your home setting and visualize your desired picture wall. The frameworks we used were Next.js, Konva, Firebase, MUI, and it's deployed with Vercel."
+          repo="https://github.com/Willen17/Blueprint"
+          demo="https://blue-print.vercel.app/"
+          next
+          ts
+          firebase
+        />
+        <ProjectCard
+          title="Hyrstacken"
+          video="hyrstacken"
+          text="Hyrstacken is a site where you can rent/rent out items to/from other people in your area in Gothenburg. The project is a fullstack application where users can sign up and post their own items."
+          repo="https://github.com/Willen17/Hyrstacken"
+          demo="https://hyrstacken.vercel.app/"
+          next
+          prisma
+          ts
+        />
+        <ProjectCard
           title="Kameraproffset"
           gif="kameraproffser.gif"
           text="Together with three classmates I created a camera web shop. The web
@@ -49,25 +69,6 @@ export default function Projects() {
           react={true}
           css={true}
           ts={true}
-        />
-        <ProjectCard
-          title="Italian plumber guy"
-          gif="italianplumber.gif"
-          text="This is a text adventure game where you're stuck in a giant castle and your wife Peach has been kidnapped by an evil turtle named Bowser. Your mission is to navigate thru the castle and save Peach. However, you face some challenges along the way."
-          repo="https://github.com/Willen17/Textspel"
-          demo="https://willen17.github.io/Textspel/"
-          html={true}
-          js={true}
-          css={true}
-        />
-        <ProjectCard
-          title="Cum Pane"
-          gif="cumpane.gif"
-          text="Me and my classmate modernized an outdated website. The original website, cumpane.coop, is very outdated, lacks responsiveness and decent UX. We made our best to fix this and ended up with a way better version."
-          repo="https://github.com/Willen17/Redesign-of-website"
-          demo="https://willen17.github.io/Redesign-of-website/"
-          html={true}
-          css={true}
         />
       </div>
     </div>

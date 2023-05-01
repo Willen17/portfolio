@@ -2,10 +2,11 @@ import "./Skills.css";
 import Tilt from "react-parallax-tilt";
 import { ReactComponent as HTMLLogo } from "../assets/icons/html-5-logo-svgrepo-com.svg";
 import { ReactComponent as CSSLogo } from "../assets/icons/css-3-logo-svgrepo-com.svg";
-import { ReactComponent as JSLogo } from "../assets/icons/javascript-svgrepo-com.svg";
+import { ReactComponent as FirebaseLogo } from "../assets/icons/firebase-seeklogo.com.svg";
 import { ReactComponent as TSLogo } from "../assets/icons/typescript-svgrepo-com.svg";
 import { ReactComponent as ReactLogo } from "../assets/icons/react-svgrepo-com.svg";
-import { ReactComponent as P5Logo } from "../assets/icons/p5js.svg";
+import { ReactComponent as NextLogo } from "../assets/icons/nextjs-logo.svg";
+import { ReactComponent as PhpLogo } from "../assets/icons/PHP-logo.svg";
 import { ReactComponent as GITLogo } from "../assets/icons/git-svgrepo-com.svg";
 import { ReactComponent as AILogo } from "../assets/icons/adobe-illustrator-cc-logo-svgrepo-com.svg";
 import { ReactComponent as AELogo } from "../assets/icons/after-effects-cc-logo-svgrepo-com.svg";
@@ -18,31 +19,28 @@ export default function Skills() {
     <div className="skills-container" id="skills">
       <h2 className="hero-title2">Skills</h2>
       <p className="skills-text">
-        After about a year of web developing I have had the delight of using a
-        bunch of different techniques. <br /> All from the basics such as HTML
-        and CSS to different libraries like React and P5js. <br />
+        After around two years of web developing I have had the delight of using
+        a bunch of different techniques. <br /> All from front-end libraries
+        such as Vue and React to full stack solutions. <br />
         <br />
         Listed beneath are techniques, programmes and libraries in which I have
         experience working with.
       </p>
       <div className="skills-wrapper">
         <Tilt tiltReverse={true}>
-          <HTMLLogo className="skills-logo" />
-        </Tilt>
-        <Tilt tiltReverse={true}>
-          <CSSLogo className="skills-logo" />
-        </Tilt>
-        <Tilt tiltReverse={true}>
-          <JSLogo className="skills-logo" />
-        </Tilt>
-        <Tilt tiltReverse={true}>
           <TSLogo className="skills-logo" />
-        </Tilt>{" "}
+        </Tilt>
         <Tilt tiltReverse={true}>
           <ReactLogo className="skills-logo" />
         </Tilt>
         <Tilt tiltReverse={true}>
-          <P5Logo className="skills-logo" style={{ fill: "#ED225D" }} />
+          <NextLogo className="skills-logo" />
+        </Tilt>
+        <Tilt tiltReverse={true}>
+          <FirebaseLogo className="skills-logo" />
+        </Tilt>
+        <Tilt tiltReverse={true}>
+          <PhpLogo className="skills-logo" />
         </Tilt>
         <Tilt tiltReverse={true}>
           <GITLogo className="skills-logo" />

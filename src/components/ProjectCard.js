@@ -9,6 +9,9 @@ import { ReactComponent as P5Logo } from "../assets/icons/p5js.svg";
 import { ReactComponent as HTMLLogo } from "../assets/icons/html-5-logo-svgrepo-com.svg";
 import { ReactComponent as CSSLogo } from "../assets/icons/css-3-logo-svgrepo-com.svg";
 import { ReactComponent as JSLogo } from "../assets/icons/javascript-svgrepo-com.svg";
+import { ReactComponent as NextLogo } from "../assets/icons/nextjs-logo.svg";
+import { ReactComponent as FirebaseLogo } from "../assets/icons/firebase-seeklogo.com.svg";
+import { ReactComponent as PrismaLogo } from "../assets/icons/prisma-logo.svg";
 
 import Tilt from "react-parallax-tilt";
 
@@ -29,23 +32,49 @@ const ProjectCard = ({
   html,
   css,
   js,
+  prisma,
+  next,
+  firebase,
+  video
 }) => {
   return (
     <Tilt tiltReverse={true} tiltMaxAngleX="5" tiltMaxAngleY="5">
       <div className="project-card">
         <h2 style={{ letterSpacing: ".05rem" }}>{title}</h2>
         <div className="preview-wrapper">
-          <img
-            className="project-preview"
-            src={require(`../assets/imgs/${gif}`)}
-            alt={title}
-          />
+          {video ? (
+            <video autoPlay loop playsInline muted className="project-preview">
+              <source src={`/Videos/${video}.mp4`} type="video/mp4" />
+              Sorry, your browser doesn't support videos.
+            </video>
+          ) : (
+            <img
+              className="project-preview"
+              src={require(`../assets/imgs/${gif}`)}
+              alt={title}
+            />
+          )}
         </div>
         <span>
           <ReadMore>{text}</ReadMore>
         </span>
         <div style={{ display: "flex", alignItems: "center" }}>
           Created using:
+          {next ? (
+            <HoverText text="Next.js">
+              <NextLogo className="project-logo" />
+            </HoverText>
+          ) : null}
+          {firebase ? (
+            <HoverText text="Firebase">
+              <FirebaseLogo className="project-logo" />
+            </HoverText>
+          ) : null}
+          {prisma ? (
+            <HoverText text="Prisma.io">
+              <PrismaLogo className="project-logo" />
+            </HoverText>
+          ) : null}
           {html ? (
             <HoverText text="HTML">
               <HTMLLogo className="project-logo" />

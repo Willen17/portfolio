@@ -15,12 +15,11 @@ export default function StartPage() {
             <h2 className="hero-title3">William</h2>
           </div>
           <span className="hero-title2">
-            a
             <Typewriter
               words={[
-                " front-end developer",
-                " coffee addict",
-                " media creator",
+                "a front-end developer",
+                "an espresso nerd",
+                "a media creator",
               ]}
               cursor
               loop={false}

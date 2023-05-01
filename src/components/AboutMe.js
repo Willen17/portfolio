@@ -43,8 +43,8 @@ export default function AboutMe() {
             to learn more and expand my knowledge in developing. I often find
             myself spending way too much time watching videos and reading about
             new smart solutions and projects. <br />
-            <br /> In my free time you can find me longboarding, traveling, in
-            some local pub watching football or on tech meetups and conferences
+            <br /> In my free time you can find me on my longboard, traveling, in
+            some local pub watching football or in tech meetups and conferences
             around Gothenburg.
           </p>
         </div>
