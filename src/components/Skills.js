@@ -1,18 +1,16 @@
-import "./Skills.css";
 import Tilt from "react-parallax-tilt";
-import { ReactComponent as HTMLLogo } from "../assets/icons/html-5-logo-svgrepo-com.svg";
-import { ReactComponent as CSSLogo } from "../assets/icons/css-3-logo-svgrepo-com.svg";
-import { ReactComponent as FirebaseLogo } from "../assets/icons/firebase-seeklogo.com.svg";
-import { ReactComponent as TSLogo } from "../assets/icons/typescript-svgrepo-com.svg";
-import { ReactComponent as ReactLogo } from "../assets/icons/react-svgrepo-com.svg";
-import { ReactComponent as NextLogo } from "../assets/icons/nextjs-logo.svg";
 import { ReactComponent as PhpLogo } from "../assets/icons/PHP-logo.svg";
-import { ReactComponent as GITLogo } from "../assets/icons/git-svgrepo-com.svg";
 import { ReactComponent as AILogo } from "../assets/icons/adobe-illustrator-cc-logo-svgrepo-com.svg";
 import { ReactComponent as AELogo } from "../assets/icons/after-effects-cc-logo-svgrepo-com.svg";
+import { ReactComponent as FigmaLogo } from "../assets/icons/figma-svgrepo-com.svg";
+import { ReactComponent as FirebaseLogo } from "../assets/icons/firebase-seeklogo.com.svg";
+import { ReactComponent as GITLogo } from "../assets/icons/git-svgrepo-com.svg";
+import { ReactComponent as NextLogo } from "../assets/icons/nextjs-logo.svg";
 import { ReactComponent as PSLogo } from "../assets/icons/photoshop-cc-logo-svgrepo-com.svg";
 import { ReactComponent as PRLogo } from "../assets/icons/premiere-cc-logo-svgrepo-com.svg";
-import { ReactComponent as FigmaLogo } from "../assets/icons/figma-svgrepo-com.svg";
+import { ReactComponent as ReactLogo } from "../assets/icons/react-svgrepo-com.svg";
+import { ReactComponent as TSLogo } from "../assets/icons/typescript-svgrepo-com.svg";
+import "./Skills.css";
 
 export default function Skills() {
   return (
